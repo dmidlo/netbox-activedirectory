@@ -11,7 +11,7 @@ version = "0.1.0"
 authors = [
     {name = "David Midlo", email = "dmidlo@gmail.com"},
 ]
-description = ""NetBox plugin for documenting and managing Active Directory objects, topology, device associations, AD Site IP ranges, FMSO roles, trusts, forests, user relationships, etc.""
+description = "NetBox plugin for documenting and managing Active Directory objects, topology, device associations, AD Site IP ranges, FMSO roles, trusts, forests, user relationships, etc."
 readme = "README.md"
 
 classifiers=[
@@ -43,7 +43,7 @@ Tracker = "https://github.com/dmidlo/netbox-activedirectory/issues"
 
 [tool.black]
 line-length = 120
-target_version = ['py39', 'py310', 'py311', 'py312']
+target_version = ['py310', 'py311', 'py312']
 
 [tool.setuptools.package-data]
 netbox_activedirectory = ["templates/**"]
